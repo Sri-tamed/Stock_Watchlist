@@ -144,23 +144,7 @@ gh repo create stock-watchlist --public --source=. --remote=origin --push
 # git push -u origin main
 ```
 
-## Deployment to Render
 
-Render is a great platform for deploying Node.js applications.
-
-1.  **Create a New Web Service**: Go to your Render dashboard and click "New" > "Web Service".
-2.  **Connect Your Repository**: Connect your GitHub account and select the `stock-watchlist` repository.
-3.  **Configure Settings**:
-    -   **Name**: Give your service a name (e.g., `stock-watchlist`).
-    -   **Root Directory**: Leave as is.
-    -   **Branch**: `main` (or your default branch).
-    -   **Build Command**: `npm install`
-    -   **Start Command**: `npm start`
-4.  **Add Environment Variables**: Under the "Environment" section, add the following variables:
-    -   `MONGODB_URI`: Your full MongoDB Atlas connection string.
-    -   `PORT`: `5000` (Render will use this internally but expose the service on port 443).
-5.  **Deploy**: Click "Create Web Service". Render will automatically build and deploy your application.
-=======
 # Stock_Watchlist
 complete Stock Watchlist application using Node.js + Express.js + MongoDB Atlas
 >>>>>>> bee430a1dd9783c392053c17778c7c44060d856d
