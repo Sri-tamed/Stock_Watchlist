@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Stock Watchlist API
 
 A simple and secure Node.js application for managing a stock watchlist. The application is built with Express and uses MongoDB for data storage. It provides a RESTful API to add and view stock tickers, with a basic web interface.
@@ -159,3 +160,7 @@ Render is a great platform for deploying Node.js applications.
     -   `MONGODB_URI`: Your full MongoDB Atlas connection string.
     -   `PORT`: `5000` (Render will use this internally but expose the service on port 443).
 5.  **Deploy**: Click "Create Web Service". Render will automatically build and deploy your application.
+=======
+# Stock_Watchlist
+complete Stock Watchlist application using Node.js + Express.js + MongoDB Atlas
+>>>>>>> bee430a1dd9783c392053c17778c7c44060d856d
