@@ -12,8 +12,8 @@ dotenv.config();
 const app = express();
 
 // Connect to MongoDB
-mongoose.connect(process.env.MONGODB_URI)
-  .then(() => console.log('✅ Connected to MongoDB Atlas'))
+mongoose.connect(process.env.MONGO_URI)
+ .then(() => console.log('✅ Connected to MongoDB Atlas'))
   .catch((err) => {
     console.error('❌ MongoDB connection failed', err);
     process.exit(1);
